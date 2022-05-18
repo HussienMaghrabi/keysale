@@ -1,0 +1,11 @@
+@extends('admin.layout.forms.edit.index')
+@section('action' , "supports/$item->id")
+@section('title' , trans('language.edit'))
+@section('page-title',trans('language.edit'))
+@section('form-groups')
+    @includeIf('admin.components.form.edit.file', ['icon' => 'fa fa-check','label' => 'User Image','name'=>'image', 'max'=>'2'])
+    @includeIf('admin.components.form.edit.text', ['icon' => 'fa fa-user','label' => trans('language.name'),'name'=>'name', 'placeholder'=>trans('language.name')])
+    @includeIf('admin.components.form.edit.email', ['icon' => 'fa fa-envelope','label' => trans('language.email'),'name'=>'email', 'placeholder'=>trans('language.email')])
+    @includeIf('admin.components.form.add.text', ['icon' => 'fa fa-mobile','label' => trans('language.mobile'),'name'=>'mobile', 'placeholder'=>trans('language.mobile')])
+@endsection
+@section('submit-button-title' , "Edit User")

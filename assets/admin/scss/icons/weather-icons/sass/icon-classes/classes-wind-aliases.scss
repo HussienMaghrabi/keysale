@@ -1,0 +1,104 @@
+@mixin wind-rotate( $val: 0deg ) {
+  -webkit-transform: rotate($val);
+  -moz-transform: rotate($val);
+  -ms-transform: rotate($val);
+  -o-transform: rotate($val);
+  transform: rotate($val);
+}
+
+.wi-wind-towards-n    {
+  @includeIf wind-rotate(0deg);
+}
+.wi-wind-towards-nne   {
+  @includeIf wind-rotate(23deg);
+}
+.wi-wind-towards-ne    {
+  @includeIf wind-rotate(45deg);
+}
+.wi-wind-towards-ene   {
+  @includeIf wind-rotate(68deg);
+}
+.wi-wind-towards-e    {
+  @includeIf wind-rotate(90deg);
+}
+.wi-wind-towards-ese   {
+  @includeIf wind-rotate(113deg);
+}
+.wi-wind-towards-se    {
+  @includeIf wind-rotate(135deg);
+}
+.wi-wind-towards-sse   {
+  @includeIf wind-rotate(158deg);
+}
+.wi-wind-towards-s    {
+  @includeIf wind-rotate(180deg);
+}
+.wi-wind-towards-ssw   {
+  @includeIf wind-rotate(203deg);
+}
+.wi-wind-towards-sw    {
+  @includeIf wind-rotate(225deg);
+}
+.wi-wind-towards-wsw   {
+  @includeIf wind-rotate(248deg);
+}
+.wi-wind-towards-w    {
+  @includeIf wind-rotate(270deg);
+}
+.wi-wind-towards-wnw   {
+  @includeIf wind-rotate(293deg);
+}
+.wi-wind-towards-nw    {
+  @includeIf wind-rotate(313deg);
+}
+.wi-wind-towards-nnw   {
+  @includeIf wind-rotate(336deg);
+}
+.wi-wind-from-n    {
+  @includeIf wind-rotate(0deg);
+}
+.wi-wind-from-nne   {
+  @includeIf wind-rotate(23deg);
+}
+.wi-wind-from-ne    {
+  @includeIf wind-rotate(45deg);
+}
+.wi-wind-from-ene   {
+  @includeIf wind-rotate(68deg);
+}
+.wi-wind-from-e    {
+  @includeIf wind-rotate(90deg);
+}
+.wi-wind-from-ese   {
+  @includeIf wind-rotate(113deg);
+}
+.wi-wind-from-se    {
+  @includeIf wind-rotate(135deg);
+}
+.wi-wind-from-sse   {
+  @includeIf wind-rotate(158deg);
+}
+.wi-wind-from-s    {
+  @includeIf wind-rotate(180deg);
+}
+.wi-wind-from-ssw   {
+  @includeIf wind-rotate(203deg);
+}
+.wi-wind-from-sw    {
+  @includeIf wind-rotate(225deg);
+}
+.wi-wind-from-wsw   {
+  @includeIf wind-rotate(248deg);
+}
+.wi-wind-from-w    {
+  @includeIf wind-rotate(270deg);
+}
+.wi-wind-from-wnw   {
+  @includeIf wind-rotate(293deg);
+}
+.wi-wind-from-nw    {
+  @includeIf wind-rotate(313deg);
+}
+.wi-wind-from-nnw   {
+  @includeIf wind-rotate(336deg);
+}
